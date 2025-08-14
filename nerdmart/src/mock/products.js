@@ -1,12 +1,6 @@
 // Función auxiliar para generar URLs de Cloudinary con parámetros de transformación
 const getCloudinaryImageUrl = (originalUrl, width = 600, quality = 'auto', format = 'auto') => {
-  // Extrae la parte de la URL de Unsplash que identifica la imagen
-  const unsplashPath = originalUrl.split('unsplash.com/')[1];
-  if (!unsplashPath) {
-    return originalUrl; // Si no es de Unsplash, devuelve la original
-  }
-  // Construye la URL de Cloudinary con las transformaciones
-  return `https://res.cloudinary.com/demo/image/fetch/f_${format},q_${quality},w_${width}/https://images.unsplash.com/${unsplashPath}`;
+  return originalUrl;
 };
 
 export const products = [
