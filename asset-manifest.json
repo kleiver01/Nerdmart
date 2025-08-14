@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Nerdmart/static/css/main.55206fc8.css",
-    "main.js": "/Nerdmart/static/js/main.38ee98e7.js",
+    "main.js": "/Nerdmart/static/js/main.faf37157.js",
     "index.html": "/Nerdmart/index.html",
     "main.55206fc8.css.map": "/Nerdmart/static/css/main.55206fc8.css.map",
-    "main.38ee98e7.js.map": "/Nerdmart/static/js/main.38ee98e7.js.map"
+    "main.faf37157.js.map": "/Nerdmart/static/js/main.faf37157.js.map"
   },
   "entrypoints": [
     "static/css/main.55206fc8.css",
-    "static/js/main.38ee98e7.js"
+    "static/js/main.faf37157.js"
   ]
 }
