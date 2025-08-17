@@ -1,0 +1,1 @@
+nerdmart/src/assets/images/*.exe filter=lfs diff=lfs merge=lfs -text

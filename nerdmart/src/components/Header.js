@@ -3,8 +3,9 @@ import { motion } from 'framer-motion';
 import { ShoppingCart, Moon, Sun, Store, X } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { useCart } from '../context/CartContext';
+import SearchBar from './SearchBar';
 
-const Header = () => {
+const Header = ({ onSearch }) => {
   const { isDarkMode, toggleTheme } = useTheme();
   const { cartItems, totalItemsInCart, removeFromCart, cartTotal, clearCart } = useCart(); // Añadido clearCart
   const [isCartOpen, setIsCartOpen] = useState(false);
@@ -34,6 +35,10 @@ const Header = () => {
             NerdMart
           </h1>
         </motion.div>
+
+        <div className="flex-grow mx-8">
+          <SearchBar onSearch={onSearch} />
+        </div>
 
         <nav className="flex items-center gap-6">
           <motion.button

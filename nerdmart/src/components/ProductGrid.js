@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import ProductCard from './ProductCard';
-import { products, categories } from '../mock/products';
+import { categories } from '../mock/products';
 
-const ProductGrid = () => {
+const ProductGrid = ({ products }) => {
   const [selectedCategory, setSelectedCategory] = useState('Todos');
 
   const filteredProducts = selectedCategory === 'Todos'
@@ -57,7 +57,7 @@ const ProductGrid = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
             >
-              No hay productos en esta categoría. ¡Qué pena!
+              No se encontraron productos con ese nombre.
             </motion.p>
           )}
         </div>
