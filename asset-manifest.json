@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nerdmart/static/css/main.55206fc8.css",
-    "main.js": "/Nerdmart/static/js/main.a486c888.js",
+    "main.css": "/Nerdmart/static/css/main.a822830f.css",
+    "main.js": "/Nerdmart/static/js/main.27bdb177.js",
     "static/media/Procesador Intel i9-14900K.png": "/Nerdmart/static/media/Procesador Intel i9-14900K.e44d5d5818a682ac9ab4.png",
     "static/media/Webcam Full HD 1080p.png": "/Nerdmart/static/media/Webcam Full HD 1080p.b2c3d377c5f6bdbfaf4d.png",
     "static/media/Tarjeta Gráfica RTX 4090.jpg": "/Nerdmart/static/media/Tarjeta Gráfica RTX 4090.28a13f98d0cf30077adf.jpg",
@@ -12,11 +12,11 @@
     "static/media/Mouse Gaming Ergonómico.jpg": "/Nerdmart/static/media/Mouse Gaming Ergonómico.2909fe803bca14d91d1e.jpg",
     "static/media/Auriculares Inalámbricos Noise Cancelling.jpg": "/Nerdmart/static/media/Auriculares Inalámbricos Noise Cancelling.f333ed6d1163139f3023.jpg",
     "index.html": "/Nerdmart/index.html",
-    "main.55206fc8.css.map": "/Nerdmart/static/css/main.55206fc8.css.map",
-    "main.a486c888.js.map": "/Nerdmart/static/js/main.a486c888.js.map"
+    "main.a822830f.css.map": "/Nerdmart/static/css/main.a822830f.css.map",
+    "main.27bdb177.js.map": "/Nerdmart/static/js/main.27bdb177.js.map"
   },
   "entrypoints": [
-    "static/css/main.55206fc8.css",
-    "static/js/main.a486c888.js"
+    "static/css/main.a822830f.css",
+    "static/js/main.27bdb177.js"
   ]
 }
